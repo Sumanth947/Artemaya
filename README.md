@@ -6,3 +6,46 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# Artemaya
+
+Artemaya is a platform designed to improve menstrual health and well-being through personalized nutrition and tracking tools.
+
+---
+
+## Features
+
+1. **Home Page**: Welcoming page with a "Start Onboarding" button.
+2. **Onboarding Form**: Multi-step form to collect user information.
+3. **Login and Registration**: Secure access and account creation.
+4. **Calendar Page**: Interactive calendar for health tracking.
+5. **Stats Page**: Displays health metrics like cycle length and period duration.
+6. **Contact Page**: Form for inquiries or feedback.
+7. **Chat Page**: AI-powered chatbot for personalized interactions.
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sumanth947/Artemaya.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Artemaya
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Start the server:
+   ```bash
+   flask run
+   ```
+
+---
+
+## Contact
+
+For inquiries, visit the Contact Page or reach out on GitHub: [Sumanth947](https://github.com/Sumanth947/Artemaya).
