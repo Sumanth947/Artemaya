@@ -22,6 +22,8 @@ Artemaya is a platform designed to improve menstrual health and well-being throu
 5. **Stats Page**: Displays health metrics like cycle length and period duration.
 6. **Contact Page**: Form for inquiries or feedback.
 7. **Chat Page**: AI-powered chatbot for personalized interactions.
+8. **Nutrition Recommendation**: Advice based on regional dietary habits.
+9. **Menstrual phase-specific**: Health condition-specific guidance
 
 ---
 
@@ -35,14 +37,42 @@ Artemaya is a platform designed to improve menstrual health and well-being throu
    ```bash
    cd Artemaya
    ```
-3. Install dependencies:
+   
+3. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+4. Activate the virtual environment:
+   ```bash
+   venv\Scripts\activate
+   ```
+5. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Start the server:
+6. Create a .env file in the project root directory:
    ```bash
-   flask run
+   touch .env
    ```
+7. Add the following keys to the .env file:
+   ```bash
+   GEMINI_API_KEY=your_gemini_api_key
+   ```
+8. Run the Application:
+   ```bash
+   python main.py
+   ```
+**Backend Structure**
+Nutrition-advisory-system/
+├── main.py                 # Entry point for the application
+├── nutrition_advisor.py    # Core logic for recommendations
+├── prompts/                # Prompt templates for AI
+├── config/                 # Configuration and utility files
+├── data/                   # File-based user profiles and recommendations
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+└── .env                    # Environment variables
+
 
 ---
 
