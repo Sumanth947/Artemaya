@@ -9,7 +9,12 @@ Currently, two official plugins are available:
 
 # Artemaya
 
-Artemaya is a platform designed to improve menstrual health and well-being through personalized nutrition and tracking tools.
+Artemaya, a website focused on menstrual health through nutrition, offers personalized 
+solutions tailored to users’ cycle phases. Key features include tailored meal plans, symptom tracking, 
+budget-based food recommendations, dietary preferences, and solutions for food preparation 
+limitations. With over 500 million menstrual apps downloaded globally, the demand for digital 
+solutions addressing menstrual health is clear. Artemaya aims to meet this demand, empowering 
+women to manage symptoms effectively while bridging gaps in knowledge and accessibility.
 
 ---
 
