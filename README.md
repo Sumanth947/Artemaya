@@ -67,16 +67,6 @@ women to manage symptoms effectively while bridging gaps in knowledge and access
    ```bash
    python main.py
    ```
-**Backend Structure**
-Nutrition-advisory-system/
-├── main.py                 # Entry point for the application
-├── nutrition_advisor.py    # Core logic for recommendations
-├── prompts/                # Prompt templates for AI
-├── config/                 # Configuration and utility files
-├── data/                   # File-based user profiles and recommendations
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-└── .env                    # Environment variables
 
 
 ---
