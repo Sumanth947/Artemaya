@@ -1,7 +1,8 @@
+// src/components/Header.jsx
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { LogIn, UserPlus } from 'lucide-react';
+import { LogIn, UserPlus, Camera } from 'lucide-react'; // Import Camera icon
 
 const Header = () => {
   const location = useLocation();
@@ -47,6 +48,13 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center space-x-4">
+            <Link
+              to="/upload" // Link to the UploadPic page
+              className="flex items-center space-x-1 px-3 py-1.5 rounded-md hover:bg-white/10 transition-colors"
+            >
+              <Camera className="h-4 w-4" /> {/* Camera icon */}
+              <span>Upload Pic</span>
+            </Link>
             <Link
               to="/login" // Ensure this points to the correct login path
               className="flex items-center space-x-1 px-3 py-1.5 rounded-md hover:bg-white/10 transition-colors"

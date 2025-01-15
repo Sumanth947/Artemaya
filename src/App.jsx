@@ -11,7 +11,8 @@ import Stats from './pages/Stats';
 import Contact from './pages/Contact';
 import TermsOfUse from './pages/TermsOfUse'; // Import TermsOfUse
 import AIDisclaimer from './pages/AIDisclaimer'; // Import AIDisclaimer
-import PrivacyPolicy from './pages/PrivacyPolicy'; // Import PrivacyPolicy
+//import PrivacyPolicy from './pages/PrivacyPolicy'; // Import PrivacyPolicy
+import UploadPic from './pages/UploadPic';
 import Chat from './pages/Chat';
 function App() {
   const location = useLocation();
@@ -28,10 +29,11 @@ function App() {
           <Route path="/onboarding" element={<OnboardingForm />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/stats" element={<Stats />} />
+          <Route path="/upload" element={<UploadPic />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms-of-use" element={<TermsOfUse />} /> {/* Ensure this route is correct */}
           <Route path="/ai-disclaimer" element={<AIDisclaimer />} /> {/* Ensure this route is correct */}
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* Ensure this route is correct */}
+          {/*<Route path="/privacy-policy" element={<PrivacyPolicy />} /> {/* Ensure this route is correct */}
         </Routes>
       </main>
       <Footer />
