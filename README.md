@@ -1,12 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 # Artemaya
 
 Artemaya, a website focused on menstrual health through nutrition, offers personalized 
@@ -63,11 +54,15 @@ women to manage symptoms effectively while bridging gaps in knowledge and access
    ```bash
    GEMINI_API_KEY=your_gemini_api_key
    ```
-8. Run the Application:
+8. Run the Backend Application:
    ```bash
    python main.py
    ```
-
+9. Start the Streamlit App
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+  
 
 ---
 
